@@ -27,6 +27,38 @@ class Navbar extends React.Component {
                 activeClassName="active"
               >About</NavLink>
             </li>
+
+            <div className="split" />
+
+            <li>
+              <NavLink
+                to="/projects"
+                exact
+                className="nav-links-a"
+                activeClassName="active"
+              >Projects</NavLink>
+            </li>
+
+            <div className="split" />
+
+            <li>
+              <NavLink
+                to="/blog"
+                exact
+                className="nav-links-a"
+                activeClassName="active"
+              >Blog</NavLink>
+            </li>
+            <div className="split" />
+
+            <li>
+              <NavLink
+                to="/contact"
+                exact
+                className="nav-links-a"
+                activeClassName="active"
+              >Contact</NavLink>
+            </li>
           </ul>
         </nav>
       </div>
