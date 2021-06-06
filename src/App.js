@@ -1,9 +1,20 @@
+// home - about -projects - blog - contact
+
+// To push to the live site run:
+// npm run deploy
+
+
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <div className="App">
+      <Router>
+        <Navbar></Navbar>
+      </Router>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
