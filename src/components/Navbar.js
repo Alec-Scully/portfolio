@@ -10,17 +10,6 @@ class Navbar extends React.Component {
           <ul className="nav-links">
             <li>
               <NavLink
-                to="/"
-                exact
-                className="nav-links-a"
-                activeClassName="active"
-              >Home</NavLink>
-            </li>
-
-            <div className="split" />
-
-            <li>
-              <NavLink
                 to="/about"
                 exact
                 className="nav-links-a"
