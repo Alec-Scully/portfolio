@@ -1,18 +1,12 @@
 import React, { Component } from 'react'
-import logo from '../logo.svg';
 
 class Contact extends Component {
 
 
-    render() {
-        return (
-            <div>
-                This is my Contact component
-                <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Portfolio under construction! More coming soon!
-        </p>
+  render() {
+    return (
+      <div>
+        This is my Contact component
         <a
           className="App-link"
           href="https://github.com/Alec-Scully"
@@ -37,10 +31,9 @@ class Contact extends Component {
         >
           Blog
         </a>
-      </header>
-            </div>
-        )
-    }
+      </div >
+    )
+  }
 }
 
 export default Contact

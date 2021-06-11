@@ -1,6 +1,10 @@
 .App {
   text-align: center;
-  /* background-image: url("images/bg1.jpeg"); */
+  background-image: url('./images/bg4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -39,14 +43,9 @@
 }
 
 .about {
-  background-image: url('./images/bg4.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+
 }
-/* background-size: auto|length|cover|contain|initial|inherit; */
-/* NavBar Styling (needs fixing) */
+
 
 nav {
   display: flex;
