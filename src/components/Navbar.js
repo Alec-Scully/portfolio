@@ -17,8 +17,6 @@ class Navbar extends React.Component {
               >About</NavLink>
             </li>
 
-            <div className="split" />
-
             <li>
               <NavLink
                 to="/projects"
@@ -28,7 +26,6 @@ class Navbar extends React.Component {
               >Projects</NavLink>
             </li>
 
-            <div className="split" />
 
             <li>
               <NavLink
@@ -38,7 +35,6 @@ class Navbar extends React.Component {
                 activeClassName="active"
               >Blog</NavLink>
             </li>
-            <div className="split" />
 
             <li>
               <NavLink
